@@ -6,7 +6,7 @@ body{
   margin: 20px;
 
   --text-color:#262626;
-  --bkg-color:white;
+  --bkg-color:#D9D9D9;
   --btn-txt-color:white;
   --btn-bg-color:grey;
 }
