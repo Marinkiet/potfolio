@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  font-family: 'Inter','Arial';
+}
+body{
+  margin: 20px;
+
+  --text-color:#262626;
+  --bkg-color:white;
+  --btn-txt-color:white;
+  --btn-bg-color:grey;
+}
+body.dark--theme{
+  --text-color:white;
+  --bkg-color: #262626;
+  --btn-txt-color:#262626;
+  --btn-bg-color:darkgrey;
+}
+
+body {
+  background: var(--bkg-color);
+}
+
+button {
+  border: none;
+  color: var(--btn-txt-color);
+  background-color: var(--btn-bg-color);
+}

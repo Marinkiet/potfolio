@@ -1,0 +1,106 @@
+label{
+  width: 80px;
+  height: 35px;
+  position: relative;
+  display: block;
+  border-radius: 200px;
+  background: lightgray;
+  box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.185), inset 0px -3px 12px rgba(255, 255, 255, 0.324);
+  cursor: pointer;
+  transition: 0.3s ;
+}
+label:after{
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  background-color: white;
+  border-radius: 200px;
+  transition: 0.3s ;
+
+}
+nav button{
+  display: contents;
+  height: 25px;
+  border-radius: 30px;
+  margin: 10px;
+  transition: 0.3s ease;
+}
+nav button:hover{
+  display: inline;
+  background: white;
+}
+input{
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+input:checked + label:after{
+  left: 76px;
+  transform: translateX(-100%);
+  background:rgba(0, 0, 0, 0.301);
+}
+
+label img {
+  position: absolute;
+  width: 25px;
+  top:5px;
+  z-index: 100;
+}
+label img.sun {
+  width: 20px;
+  top:7px;
+  left:10px;
+  fill:#fff;
+  transition: 0.3s;
+}
+label img.moon {
+  left:48px;
+  transition: 0.3s;
+}
+input:checked + label img.sun {
+  display: block;
+
+}
+input + label img.moon {
+  display: block;
+}
+input + label img.sun {
+  display: none;
+}
+input:checked + label img.moon {
+  display: none;
+
+}
+
+.navigation, nav ,input{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav{
+  width: 50%;
+  height: 35px;
+  position: relative;
+  border-radius: 200px;
+  background: lightgray;
+  box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.185), inset 0px -3px 12px rgba(255, 255, 255, 0.324);
+  cursor: pointer;
+
+}
+
+nav a{
+  color: #262626;
+  text-decoration: none;
+  padding: 15px;
+}
+
+
+.navigation .date{
+  text-align: center;
+  font-size: 14px;
+  color: var(--text-color);
+}
