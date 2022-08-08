@@ -82,6 +82,7 @@ input:checked + label img.moon {
   justify-content: space-between;
 }
 nav{
+  display: flex;
   width: 50%;
   height: 35px;
   position: relative;
@@ -89,7 +90,7 @@ nav{
   background: lightgray;
   box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.185), inset 0px -3px 12px rgba(255, 255, 255, 0.324);
   cursor: pointer;
-
+  overflow-y: hidden;
 }
 
 nav a{
@@ -103,4 +104,8 @@ nav a{
   text-align: center;
   font-size: 14px;
   color: var(--text-color);
+}
+.navigation{
+  display: flex;
+  flex-wrap: wrap;
 }
