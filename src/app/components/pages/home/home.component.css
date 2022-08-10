@@ -180,7 +180,9 @@
 
   object-fit: cover;
 }
-
+.school span{
+  color: palevioletred;
+}
 /**************************cofee**************************/
 .container2 {
   position: relative;

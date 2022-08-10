@@ -22,15 +22,16 @@ label:after{
 
 }
 nav button{
-  display: contents;
   height: 25px;
   border-radius: 30px;
   margin: 10px;
   transition: 0.3s ease;
+  background: none;
+
 }
 nav button:hover{
-  display: inline;
   background: white;
+
 }
 input{
   width: 0;
@@ -81,7 +82,9 @@ input:checked + label img.moon {
   justify-content: space-between;
 }
 nav{
+
   display: flex;
+  justify-content: space-around;
   width: 50%;
   height: 35px;
   position: relative;
@@ -93,6 +96,7 @@ nav{
 }
 
 nav a{
+
   color: #262626;
   text-decoration: none;
   padding: 15px;

@@ -1,0 +1,84 @@
+footer{
+  display: flex;
+  justify-content: space-between;
+}
+hr{
+  margin-top: 40px;
+  color: darkgray;
+}
+ul{
+  list-style: none;
+  padding: 20px;
+}
+ul li{
+  display: flex;
+  padding: 20px;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+ul li a{
+  color: var(--text-color);
+  text-decoration: none;
+  background:
+  linear-gradient(
+    to right,
+    rgba(100, 200, 200, 1),
+    rgba(100, 200, 200, 1)
+  ),
+  linear-gradient(
+    to right,
+    rgba(255, 0, 0, 1),
+    rgba(255, 0, 180, 1),
+    rgba(0, 100, 200, 1)
+);
+background-size: 100% 3px, 0 3px;
+background-position: 100% 100%, 0 100%;
+background-repeat: no-repeat;
+transition: background-size 400ms;
+}
+ul li a:hover{
+  font-size: large;
+  background-size: 0 3px, 100% 3px;
+}
+ul li img{
+  padding-right: 10px;
+  height: 20px;
+  object-fit: cover;
+}
+.owner{
+  display: flex;
+  justify-content: center;
+  color: var(--text-color);
+}
+footer button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: 50px;
+  height: 50px;
+  width: 200px;
+  font-size: 16px;
+  color: var(--btn-txt-color);
+  padding: 20px;
+  border-radius: 30px;
+}
+/* footer .btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+footer .btn a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 0;
+  color: var(--btn-txt-color);
+}
+footer .btn img{
+  padding-right:40px;
+  margin: 0;
+  position: relative;
+}

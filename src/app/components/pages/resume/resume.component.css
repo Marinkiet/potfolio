@@ -1,0 +1,11 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  object-fit: cover;
+}
+h1{
+  margin-bottom: 30px;
+}
