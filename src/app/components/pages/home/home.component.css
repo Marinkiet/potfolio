@@ -75,8 +75,8 @@
 }
 .intro button:hover{
   color: #282323;
-  cursor: pointer;
-  border: 1px solid #282323;
+  cursor:default;
+  border: 1px solid palevioletred;
   background: linear-gradient(pink,white);
 }
 
@@ -88,6 +88,8 @@
   border-radius: none;
   /* position: absolute; */
 }
+
+
 .container{
   justify-content: center;
   display: flex;
@@ -95,7 +97,8 @@
   gap: 70px;
 }
 
-.music, .music2{
+
+.coffee{
     /* margin: 244px 0px; */
   width: 225px;
   height: 230px;
@@ -139,8 +142,11 @@
     margin: -46px 0px;
 
 }
+.map:hover{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.projects,.journey{
+}
+.journey{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -150,7 +156,10 @@
   background: rgba(255, 255, 255, 0.918);
   border-radius: 60px;
 }
+.journey:hover{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));;
 
+}
 .journey ul{
   list-style: none;
   text-align: center;
@@ -174,6 +183,14 @@
   display: grid;
   grid-template-columns: auto auto auto;
 }
+.projects{
+  display: flex;
+  justify-content: center;
+  overflow: scroll;
+  height: 500px;
+  overflow-x: hidden;
+  margin-left: 80px;
+}
  .tech-stack img {
   padding: 30px;
   margin: 0;
@@ -187,6 +204,10 @@
 .container2 {
   position: relative;
   height: 270px;
+}
+.container2:hover{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));;
+
 }
 .coffee-header {
   width: 100%;
@@ -239,7 +260,7 @@
   position: absolute;
   top: 10px;
   right: 10px;
-  background-color: #9b9091;
+  background-color: var(--btn-bg-color);
   box-shadow: -12px 0 0 #9b9091, -24px 0 0 #9b9091;
 }
 .coffee-medium {

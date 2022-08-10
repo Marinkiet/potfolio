@@ -13,8 +13,8 @@ body{
 }
 body.dark--theme{
   --text-color:white;
-  --bkg-color: #262626;
-  --btn-txt-color:#262626;
+  --bkg-color: #343434;
+  --btn-txt-color:white;
   --btn-bg-color:darkgrey;
 }
 
