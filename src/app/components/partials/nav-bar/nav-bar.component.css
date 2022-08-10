@@ -37,7 +37,6 @@ input{
   height: 0;
   visibility: hidden;
 }
-
 input:checked + label:after{
   left: 76px;
   transform: translateX(-100%);
@@ -108,4 +107,6 @@ nav a{
 .navigation{
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }

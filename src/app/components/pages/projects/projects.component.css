@@ -1,0 +1,39 @@
+.project img{
+  height: 350px;
+  width: 300px;
+  object-fit: cover;
+  border-radius:30px 30px 0 0 ;
+}
+.container{
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.project{
+  margin: 20px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.project button{
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 30px;
+
+}
+
+
+.project .btns{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+video{
+  object-fit: cover;
+  height: 80px;
+  width: 100vw;
+}
