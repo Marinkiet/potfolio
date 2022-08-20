@@ -32,3 +32,15 @@
   justify-content: space-between;
   align-items: center;
 }
+.view-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.view-more a{
+  text-decoration: none;
+  color: var(--btn-txt-color);
+}
+.view-more a:hover {
+  color: rgb(17, 125, 119);
+}
