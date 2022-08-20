@@ -103,5 +103,8 @@
       }
     }
   },
-  "defaultProject": "potfolio"
+  "defaultProject": "potfolio",
+  "cli": {
+    "analytics": "73863f30-205e-472e-81e1-5f9cfb7e9ad3"
+  }
 }
