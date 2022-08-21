@@ -5,5 +5,9 @@
   "scripts": {
     "start": "node server.js",
     "heroku-postbuild": "ng build --prod"
+  },
+  "engines": {
+    "node": "16.15.0",
+    "npm": "8.8.0"
   }
 }
